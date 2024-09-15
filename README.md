@@ -114,7 +114,7 @@ python insert_db.py data.csv
 | evaluation   | CHAR     | 評価 |
 | last_updated | TIMESTAMP| 最終更新日 |
 
-[image1]: ./gradeook.png "Grades Database"
+![image1](./gradeook.png) "gradebook"
 
 ## 注意事項
 
