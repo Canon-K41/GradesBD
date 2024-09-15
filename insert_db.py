@@ -99,7 +99,7 @@ def main():
         values = (
             int(row['field_id']),
             str(row['subject_name']),
-            int(row['credit']),
+            float(row['credit']),
             int(row['year']),
             str(row['term']),
             int(row['instructor_id'])
