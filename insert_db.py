@@ -8,7 +8,7 @@ df = pd.read_csv(file)
 df = df.rename(columns={'分野系列名': 'field', '科目名': 'subject_name',
                         '単位': 'credit','評価': 'evaluation', 'GP':
                         'grade_point','年度':
-                        'year', '期間': 'term', '評価': 'evaluation',
+                        'year', '期間': 'term', 
                         '科目ナンバリング': 'subject_number', '講義コード':
                         'subject_code',
                         '成績担当者': 'instructor', '最終更新日':
