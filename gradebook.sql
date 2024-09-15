@@ -43,3 +43,5 @@ CREATE TABLE grades (
     FOREIGN KEY (subject_id) REFERENCES subjects(subject_id), -- 科目テーブルへの外部キー
     FOREIGN KEY (evaluation) REFERENCES grade_points(evaluation) -- 成績ポイントテーブルへの外部キー
 );
+
+SOURCE create_grade_point_table.sql;
